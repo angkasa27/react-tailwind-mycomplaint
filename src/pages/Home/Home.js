@@ -664,7 +664,7 @@ export function Footer() {
             <p>{'> Di saat ide & inovasi dimasukan ke dalam satu projek'}</p>
             <p>{'> Hasil kolaborasi antara angkasa27 & muhamadfathoni27rpl'}</p>
             <p>
-              {'> Lebih dari tugas sekolah, sebatas pikiran imajinasi kami'}
+              {'> Lebih dari tugas sekolah, sebatas imajinasi inovasi kami'}
             </p>
           </div>
         </div>

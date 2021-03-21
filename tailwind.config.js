@@ -39,10 +39,10 @@ module.exports = {
       },
       animation: {
         upDown: 'upDown 2s ease-in-out infinite',
-        bgUp: 'bgUp 10s ease-in-out infinite',
-        bgDown: 'bgDown 10s ease-in-out infinite',
+        bgUp: 'bgUp 15s ease-in-out infinite',
+        bgDown: 'bgDown 15s ease-in-out infinite',
         navDown: 'navDown .2s ease-out',
-        modalDown: 'modalDown .2s ease-out',
+        modalDown: 'modalDown .3s ease-out',
       },
       zIndex: {
         '-10': '-10',
