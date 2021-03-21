@@ -1,6 +1,6 @@
-{
-  "homepage": "https://angkasa27.github.io/react-tailwind-dashboard/",
-  "name": "tailwind-base",
+{  
+  "homepage": ".",
+  "name": "react-tailwind-mycomplaint",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,8 +8,6 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "axios": "^0.21.1",
-    "crypto-js": "^4.0.0",
     "moment": "^2.29.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
@@ -21,7 +19,7 @@
   },
   "scripts": {
     "deploy": "gh-pages -d build",
-    "start": "SET PORT=4040 && craco start",
+    "start": "SET PORT=2020 && craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
