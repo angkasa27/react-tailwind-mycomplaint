@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import './App.css';
@@ -13,7 +13,7 @@ export default function App() {
     <div className="bg-gradient-to-br from-blue-400 to-purple-500  text-gray-600  font-nunito">
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/react-tailwind-mycomplaint" component={Home} />
+        {/* <Route path="/react-tailwind-mycomplaint" component={Home} /> */}
       </Switch>
     </div>
   );
