@@ -32,12 +32,17 @@ module.exports = {
           '0%': { transform: 'translate(0, -4rem)' },
           '100%': { transform: 'translate(0, 0rem)' },
         },
+        modalDown: {
+          '0%': { transform: 'translate(-50%, -40%)', opacity: '0%' },
+          '100%': { transform: 'translate(-50%, -50%)', opacity: '100%' },
+        },
       },
       animation: {
         upDown: 'upDown 2s ease-in-out infinite',
         bgUp: 'bgUp 10s ease-in-out infinite',
         bgDown: 'bgDown 10s ease-in-out infinite',
         navDown: 'navDown .2s ease-out',
+        modalDown: 'modalDown .2s ease-out',
       },
       zIndex: {
         '-10': '-10',

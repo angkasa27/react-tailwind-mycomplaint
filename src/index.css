@@ -28,10 +28,6 @@ code {
   @apply border-black
 }
 
-.text-active{
-  @apply text-indigo-500 cursor-pointer
-}
-
 .transition-default{
   @apply transition duration-200 ease-out
 }
