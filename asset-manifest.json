@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-tailwind-mycomplaint/static/css/main.809256c8.chunk.css",
-    "main.js": "/react-tailwind-mycomplaint/static/js/main.19c21e05.chunk.js",
-    "main.js.map": "/react-tailwind-mycomplaint/static/js/main.19c21e05.chunk.js.map",
+    "main.js": "/react-tailwind-mycomplaint/static/js/main.81c6041c.chunk.js",
+    "main.js.map": "/react-tailwind-mycomplaint/static/js/main.81c6041c.chunk.js.map",
     "runtime-main.js": "/react-tailwind-mycomplaint/static/js/runtime-main.69f89617.js",
     "runtime-main.js.map": "/react-tailwind-mycomplaint/static/js/runtime-main.69f89617.js.map",
     "static/js/2.c11a1f97.chunk.js": "/react-tailwind-mycomplaint/static/js/2.c11a1f97.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.69f89617.js",
     "static/js/2.c11a1f97.chunk.js",
     "static/css/main.809256c8.chunk.css",
-    "static/js/main.19c21e05.chunk.js"
+    "static/js/main.81c6041c.chunk.js"
   ]
 }
