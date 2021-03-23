@@ -45,6 +45,7 @@ export default function Home() {
         <Section2 />
         <Section3 />
         <Section4 />
+        <Section5 />
       </CardCover>
       <Footer />
       <Modal open={open} onClose={() => setOpen(false)} />
@@ -648,6 +649,85 @@ export function Section4() {
   );
 }
 
+export function Section5() {
+  return (
+    <section
+      id="tutorial"
+      className="flex flex-col w-full justify-center h-screen px-28"
+    >
+      <Header name="Progress" />
+      <div className="flex justify-center">
+        <div className="mr-2 overflow-hidden rounded-xl hover:shadow-2xl transition duration-300 ease-out bg-white border border-gray-200 w-96">
+          <div className="flex justify-between items-center px-4 py-2 border-b border-gray-200">
+            <p className="font-bold font-mono">{'user_interface'}</p>
+            <div className="flex w-14 justify-between">
+              <div className="w-4 h-4 bg-blue-500 rounded-full" />
+              <div className="w-4 h-4 bg-indigo-500 rounded-full" />
+              <div className="w-4 h-4 bg-purple-500 rounded-full" />
+            </div>
+          </div>
+          <div className="bg-gray-50 p-4 font-mono text-gray-700 text-sm">
+            <p className=" text-gray-400">{'//Landing Page'}</p>
+            <div className="flex items-center">
+              <div className="bg-gray-200 w-full rounded-full h-2 mr-2">
+                <div className="bg-blue-500 w-1/5 rounded-full h-2" />
+              </div>
+              20%
+            </div>
+            <p className="mt-3 text-gray-400">{'//Dashboard Admin'}</p>
+            <div className="flex items-center">
+              <div className="bg-gray-200 w-full rounded-full h-2 mr-2">
+                <div className="bg-blue-500 w-12/12 rounded-full h-2" />
+              </div>
+              100%
+            </div>
+            <p className="mt-3 text-gray-400">{'//Dashboard User'}</p>
+            <div className="flex items-center">
+              <div className="bg-gray-200 w-full rounded-full h-2 mr-2">
+                <div className="bg-blue-500 w-11/12 rounded-full h-2" />
+              </div>
+              94%
+            </div>
+          </div>
+        </div>
+        <div className="ml-2 overflow-hidden rounded-xl hover:shadow-2xl transition duration-300 ease-out bg-white border border-gray-200 w-96">
+          <div className="flex justify-between items-center px-4 py-2 border-b border-gray-200">
+            <p className="font-bold font-mono">{'user_interface'}</p>
+            <div className="flex w-14 justify-between">
+              <div className="w-4 h-4 bg-blue-500 rounded-full" />
+              <div className="w-4 h-4 bg-indigo-500 rounded-full" />
+              <div className="w-4 h-4 bg-purple-500 rounded-full" />
+            </div>
+          </div>
+          <div className="bg-gray-50 p-4 font-mono text-gray-700 text-sm">
+            <p className=" text-gray-400">{'//Landing Page'}</p>
+            <div className="flex items-center">
+              <div className="bg-gray-200 w-full rounded-full h-2 mr-2">
+                <div className="bg-blue-500 w-1/5 rounded-full h-2" />
+              </div>
+              20%
+            </div>
+            <p className="mt-3 text-gray-400">{'//Dashboard Admin'}</p>
+            <div className="flex items-center">
+              <div className="bg-gray-200 w-full rounded-full h-2 mr-2">
+                <div className="bg-blue-500 w-12/12 rounded-full h-2" />
+              </div>
+              100%
+            </div>
+            <p className="mt-3 text-gray-400">{'//Dashboard User'}</p>
+            <div className="flex items-center">
+              <div className="bg-gray-200 w-full rounded-full h-2 mr-2">
+                <div className="bg-blue-500 w-11/12 rounded-full h-2" />
+              </div>
+              94%
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export function Footer() {
   return (
     <div>
@@ -707,11 +787,46 @@ export function Footer() {
                 />
               </svg>
             </p>
-            <p>{'@mas.angkasa27'}</p>
-            <p>{'@mhmdfathoni_'}</p>
-            <p>{'@zakaria_2910'}</p>
-            <p>{'@whynaagustin'}</p>
-            <p>{'@smktelkommalang'}</p>
+            <a
+              href="https://www.instagram.com/mas.angkasa27/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-indigo-500 cursor-pointer ml-2"
+            >
+              {'@mas.angkasa27'}
+            </a>
+            <p
+              href="https://www.instagram.com/mhmdfathoni_/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-indigo-500 cursor-pointer ml-2"
+            >
+              {'@mhmdfathoni_'}
+            </p>
+            <p
+              href="https://www.instagram.com/zakaria_2910/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-indigo-500 cursor-pointer ml-2"
+            >
+              {'@zakaria_2910'}
+            </p>
+            <p
+              href="https://www.instagram.com/whynaagustin/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-indigo-500 cursor-pointer ml-2"
+            >
+              {'@whynaagustin'}
+            </p>
+            <p
+              href="https://www.instagram.com/smktelkommalang/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-indigo-500 cursor-pointer ml-2"
+            >
+              {'@smktelkommalang'}
+            </p>
           </div>
         </div>
       </div>
