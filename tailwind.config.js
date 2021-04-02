@@ -33,8 +33,8 @@ module.exports = {
           '100%': { transform: 'translate(0, 0rem)' },
         },
         modalDown: {
-          '0%': { transform: 'translate(-50%, -40%)', opacity: '0%' },
-          '100%': { transform: 'translate(-50%, -50%)', opacity: '100%' },
+          '0%': { transform: 'translate(-50%, -40%)', opacity: '0' },
+          '100%': { transform: 'translate(-50%, -50%)', opacity: '1' },
         },
       },
       animation: {
